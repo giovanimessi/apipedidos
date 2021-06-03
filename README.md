@@ -11,10 +11,10 @@
 A API Restful deve contemplar os módulos Cliente, Pastel e Pedido, sendo que
 cada um deverá conter endpoints CRUD.
 As tabelas devem conter as seguintes informações:<br>
-● Cliente nome, email, telefone, data de nascimento, endereço, complemento,
+● Cliente => nome, email, telefone, data de nascimento, endereço, complemento,
 bairro, cep, data de cadastro;<br>
-● Pastel nome, preço, foto;<br>
-● Pedido código do cliente, código(s) do pastel, data da criação;
+● Pastel=> nome, preço, foto;<br>
+● Pedido=> código do cliente, código(s) do pastel, data da criação;
 Requisitos<br>
 ● Não devem existir dois clientes com o mesmo email.<br>
 ● O pastel deve possuir foto.<br>
