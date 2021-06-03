@@ -7,10 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-###Sobre o projeto
-A API Restful deve contemplar os módulos Cliente, Pastel e Pedido, sendo que
+### Sobre o projeto
+A API Restful deve contemplar os módulos Cliente, Pastel e Pedido, sendo que<br>
 cada um deverá conter endpoints CRUD.
-As tabelas devem conter as seguintes informações:
+As tabelas devem conter as seguintes informações:<br>
 ● Cliente nome, email, telefone, data de nascimento, endereço, complemento,
 bairro, cep, data de cadastro;
 ● Pastel nome, preço, foto;
