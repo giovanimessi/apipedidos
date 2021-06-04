@@ -14,8 +14,18 @@ class CreateClientesTable extends Migration
     public function up()
     {
         Schema::create('clientes', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->increments('id');
+            $table -> string('name',100);
+            $table ->string('email',100)->unique();
+            $table ->string('telefone');
+            $table ->date('data de nascimento');
+            $table ->string('endereco');
+            $table ->string('complemento');
+            $table ->string('bairro');
+            $table ->string('cep');
+            $table->date('data de cadastro');
+
+
         });
     }
 
